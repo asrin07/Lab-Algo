@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 import plotly.graph_objects as go
 
 sent = Problem2.sentiment
-dist = [prob1.packagedTravelled1,prob1.packagedTravelled2,prob1.packagedTravelled3]
+dist = [prob1.hubIndex1,prob1.hubIndex2,prob1.hubIndex3]
 distscore = [[0 for i in range (5)]for i in range(3)]
 
 #std mean dist
